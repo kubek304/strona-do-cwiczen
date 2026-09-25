@@ -4,96 +4,6 @@
     <meta charset="utf-8"> 
     <title>Kuba 1P</title> 
     <style>
-        /* Style dla tabeli z kartami graficznymi (Zadanie 9) */
-        table.dane-komputerowe {
-            border-collapse: collapse;
-            width: 100%;
-            max-width: 800px;
-            margin: 20px auto;
-            border: 8px solid #ff0000;
-            background-color: #ffffff;
-        }
-
-        table.dane-komputerowe th, 
-        table.dane-komputerowe td {
-            border: 2px solid #ff0000;
-            padding: 6px 10px;
-        }
-
-        table.dane-komputerowe caption {
-            font-family: 'Times New Roman', Times, serif;
-            font-size: 32px;
-            font-weight: bold;
-            color: #000000;
-            margin-bottom: 8px;
-            text-align: center;
-            background-color: #ffffff;
-        }
-
-        table.dane-komputerowe thead th {
-            background-color: #001242;
-            color: #ffffff;
-            font-family: 'Times New Roman', Times, serif;
-            font-size: 18px;
-            font-weight: normal;
-            text-align: center;
-        }
-
-        table.dane-komputerowe td:nth-child(1) {
-            text-align: left;
-            color: #ffff00;
-            font-weight: bold;
-            font-size: 20px;
-            font-family: Arial, sans-serif;
-            text-shadow: 1px 1px 1px #888;
-        }
-
-        table.dane-komputerowe td:nth-child(2) {
-            text-align: center;
-            color: #a54242;
-            font-size: 18px;
-            font-family: 'Times New Roman', serif;
-        }
-
-        table.dane-komputerowe td:nth-child(3) {
-            text-align: center;
-            color: #cc0000;
-            font-weight: bold;
-            font-size: 20px;
-            font-family: 'Times New Roman', serif;
-        }
-
-        table.dane-komputerowe td:nth-child(4) {
-            text-align: center;
-            color: #a54242;
-            font-size: 18px;
-            font-family: 'Times New Roman', serif;
-        }
-
-        table.dane-komputerowe tbody tr:nth-child(1) { background-color: #e3e3e3; }
-        table.dane-komputerowe tbody tr:nth-child(2) { background-color: #d8d8d8; }
-        table.dane-komputerowe tbody tr:nth-child(3) { background-color: #cdcdcd; }
-        table.dane-komputerowe tbody tr:nth-child(4) { background-color: #c2c2c2; }
-        table.dane-komputerowe tbody tr:nth-child(5) { background-color: #b7b7b7; }
-        table.dane-komputerowe tbody tr:nth-child(6) { background-color: #acacac; }
-
-        .aktywne-cell {
-            background-color: #d6e2f0 !important;
-            color: #000000 !important;
-            font-size: 22px !important;
-            text-align: center !important;
-            vertical-align: middle !important;
-            font-family: 'Times New Roman', serif !important;
-        }
-
-        .stopka-tabeli {
-            background-color: #001242 !important;
-            color: #ffffff !important;
-            text-align: center !important;
-            font-size: 22px !important;
-            font-family: 'Times New Roman', serif !important;
-        }
-
         /* Style dla sekcji żartów z różnymi kolorami paska hr */
         hr.zolt-pasek {
             border: 0;
@@ -134,7 +44,7 @@
 <h5> Wyrwa </h5><br>
 <h4> Wyrwa </h4><br>
 <h3> Wyrwa </h3><br>
-<h2> Wyrwa </h2><br>
+<h2> Wyrwa <br>
 <h1> Wyrwa </h1><br>
 
 <p align="right"> <font color="green" size="8" face="Verdana">  ;-)  </font> </p> <br>
@@ -144,7 +54,7 @@
 <p align="right"> <font color="Gray" size="6" face="Arial"> ¯_ (ツ)_/¯ </font> </p> <br> 
 <p align="right"> <font color="Aqua" size="7" face="Arial"> ;)  </font> </p> <br> 
 
-<!-- ZADANIE 2: PIERWSZA TABELA -->
+<!-- ZADANIE 2: TABELA Z CEZARYM PAZURĄ -->
 <table border="1" width="100%" cellpadding="15" style="background-color: white;">
     <tr>
         <td>
@@ -224,79 +134,10 @@
 
 <br><br>
 
-<!-- Tabela z nazwiskiem ucznia ze zdjęcia -->
-<table border="0" width="300">
-    <tr>
-        <td><b>nazwisko ucznia</b></td>
-        <td><b>imię ucznia</b></td>
-    </tr>
-    <tr>
-        <td>Cezary</td>
-        <td>Pazura</td>
-    </tr>
-</table>
 
 <p>
     &#169; &#168; &#167; &#164; &#34; &#172; &#60;
 </p>
-
-<br><br>
-
-<!-- ZADANIE 9: DRUGA TABELA -->
-<table class="dane-komputerowe">
-    <caption>Dane komputerowe - Smuga Jan 2Fg3</caption>
-    <thead>
-        <tr>
-            <th>Model karty<br>graficznej</th>
-            <th>Taktowanie<br>bazowe</th>
-            <th>Rozmiar<br>pamięci</th>
-            <th>Szyna<br>pamięci</th>
-            <th>Typ<br>chłodzenia</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>RTX 2080</td>
-            <td>1515 MHz</td>
-            <td>8 GB</td>
-            <td>256-bit</td>
-            <td rowspan="6" class="aktywne-cell">Aktywne</td>
-        </tr>
-        <tr>
-            <td>RTX 2070</td>
-            <td>1410 MHz</td>
-            <td>8 GB</td>
-            <td>256-bit</td>
-        </tr>
-        <tr>
-            <td>RTX 2060</td>
-            <td>1365 MHz</td>
-            <td>6 GB</td>
-            <td>192-bit</td>
-        </tr>
-        <tr>
-            <td>GTX 1660</td>
-            <td>1785 MHz</td>
-            <td>6 GB</td>
-            <td>192-bit</td>
-        </tr>
-        <tr>
-            <td>GTX 1550</td>
-            <td>1860 MHz</td>
-            <td>4 GB</td>
-            <td>128-bit</td>
-        </tr>
-        <tr>
-            <td>GTX 1060</td>
-            <td>1506 MHz</td>
-            <td>6 GB</td>
-            <td>192-bit</td>
-        </tr>
-        <tr>
-            <td colspan="5" class="stopka-tabeli">Dane komputerowe</td>
-        </tr>
-    </tbody>
-</table>
 
 </body> 
 </html>
