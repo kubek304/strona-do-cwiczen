@@ -12,6 +12,110 @@ tutaj jest formularz <br> <br>
 
 
 <A HREF="index.html"> Wróć </A>
+
+
+
+
+   
+</style>
+
+
+
+
+
+    <div class="form-container">
+        <h2 class="form-title">Formularz do pracy</h2>
+        
+        <form action="#" method="POST">
+            <div class="form-content">
+                
+                <!-- LEWA KOLUMNA -->
+                <div class="left-column">
+                    <div class="form-group-inline">
+                        <label for="imie">Imię</label>
+                        <input type="text" id="imie" name="imie">
+                    </div>
+
+                    <div class="form-group-inline">
+                        <label for="drugie_imie">Drugie imię</label>
+                        <input type="text" id="drugie_imie" name="drugie_imie">
+                    </div>
+
+                    <div class="form-group-inline">
+                        <label for="nazwisko">Nazwisko</label>
+                        <input type="text" id="nazwisko" name="nazwisko">
+                    </div>
+
+                    <div class="form-group-inline">
+                        <label for="email">e-mail</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+
+                    <div class="form-group" style="margin-top: 20px;">
+                        <label>Adres zamieszkania:</label>
+                        <div class="form-group-inline" style="margin-top: 5px;">
+                            <label for="miasto">Miasto</label>
+                            <input type="text" id="miasto" name="miasto">
+                        </div>
+                        <div class="form-group-inline">
+                            <label for="wojewodztwo">Województwo</label>
+                            <input type="text" id="wojewodztwo" name="wojewodztwo">
+                        </div>
+                    </div>
+
+                    <div class="form-group" style="margin-top: 20px;">
+                        <label>Transport do pracy:</label>
+                        <div class="checkbox-group">
+                            <label><input type="checkbox" name="transport" value="auto"> Auto</label>
+                            <label><input type="checkbox" name="transport" value="autobus"> Autobus</label>
+                            <label><input type="checkbox" name="transport" value="tramwaj"> Tramwaj</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group" style="margin-top: 20px;">
+                        <label>Co robisz po pracy?</label>
+                        <div class="checkbox-group">
+                            <label><input type="checkbox" name="po_pracy" value="spanie"> spanie</label>
+                            <label><input type="checkbox" name="po_pracy" value="trening"> trening</label>
+                            <label><input type="checkbox" name="po_pracy" value="spacer"> spacer</label>
+                            <label><input type="checkbox" name="po_pracy" value="inne"> Inne</label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PRAWA KOLUMNA -->
+                <div class="right-column">
+                    <div class="form-group">
+                        <label>Dodatkowe godziny</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="dodatkowe_godziny" value="tak"> tak</label>
+                            <label><input type="radio" name="dodatkowe_godziny" value="nie"> Nie</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group" style="margin-top: 25px;">
+                        <label for="dodatkowe_informacje">Dodatkowe informacje o tobie</label>
+                        <textarea id="dodatkowe_informacje" name="dodatkowe_informacje"></textarea>
+                    </div>
+
+                    <div class="form-group" style="margin-top: 25px;">
+                        <label for="checi">Chęci do pracy</label>
+                        <div class="range-container">
+                            <input type="range" id="checi" name="checi" min="0" max="100" step="25" value="50">
+                            <div class="range-labels">
+                                <span>0%</span>
+                                <span>25%</span>
+                                <span>50%</span>
+                                <span>75%</span>
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group" style="margin-top: 35px;">
+                        <label for="kolor_tla">kolor tła: <u>
+
+
  
     </body> 
 </html>
